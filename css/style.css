@@ -1,0 +1,27 @@
+.col-md-8 {
+  margin: auto;
+  text-align: center;
+
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+.success, .error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: green
+}
+
+.error {
+  background: red;
+}

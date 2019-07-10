@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Book-APP</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Add Book</h1>
+        <form id="book-form">
+          <div class="form-group">
+            <label for="Book">Book Title</label>
+            <input type="text" class="form-control" id="title" >
+          </div>
+          <div class="form-group">
+            <label for="Author">Author</label>
+            <input type="text" class="form-control" id="author">
+          </div>
+          <div class="form-group">
+            <label for="Isbn">ISBN</label>
+            <input type="text" class="form-control" id="isbn">
+          </div>
+          <input type="submit" value="Submit" class="btn btn-dark btn-block"></input>
+           <br>
+           <br>
+           <div class="form-group">
+            <input type="text" class="form-control form-control-lg" id="search" placeholder="Search...">
+          </div>
+          </form>
+          <hr>
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+              </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
